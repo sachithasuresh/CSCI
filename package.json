@@ -1,0 +1,31 @@
+{
+  "name": "sanitatem",
+  "version": "1.0.0",
+  "description": "Team 11 CSCI-P 465 Project",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.iu.edu/asebukte/CSCI-P465-Team-11.git"
+  },
+  "author": "Sachitha",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.0",
+    "concurrently": "^6.3.0",
+    "express": "^4.17.1",
+    "google-auth-library": "^7.10.1",
+    "googleapis": "^89.0.0",
+    "is-empty": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.0.12",
+    "nodemailer": "^6.7.0",
+    "passport": "^0.5.0",
+    "passport-jwt": "^4.0.0",
+    "two-step-auth": "^1.1.2",
+    "validator": "^13.6.0"
+  }
+}
